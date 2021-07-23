@@ -9,6 +9,8 @@ RUN apk add nasm
 RUN apk add libtool
 RUN apk add zlib
 RUN apk add libc6-compat
+RUN apk add libpng
+RUN apk add libpng-dev
 RUN apk add mesa-dev
 RUN apk add libxi
 RUN apk add build-base
